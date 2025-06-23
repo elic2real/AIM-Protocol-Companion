@@ -1,0 +1,25 @@
+{
+  "name": "aim-protocol-companion",
+  "version": "1.0.0",
+  "description": "The core AI brain and conversational interface for the AIM Protocol.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elic2real/AIM-Protocol-Companion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elic2real/AIM-Protocol-Companion/issues"
+  },
+  "homepage": "https://github.com/elic2real/AIM-Protocol-Companion#readme",
+  "dependencies": {
+    "@capacitor/android": "^7.4.0",
+    "@capacitor/cli": "^7.4.0",
+    "@capacitor/core": "^7.4.0"
+  }
+}

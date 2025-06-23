@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">aim-protocol-companion</string>
+    <string name="title_activity_main">aim-protocol-companion</string>
+    <string name="package_name">com.aim.companion</string>
+    <string name="custom_url_scheme">com.aim.companion</string>
+</resources>

@@ -1,0 +1,1 @@
+console.log('AIM Protocol Companion loaded!');
