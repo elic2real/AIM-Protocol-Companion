@@ -1,4 +1,4 @@
-package com.getcapacitor.android;
+package com.aim.companion;
 
 import android.content.Intent;
 import android.content.res.Configuration;

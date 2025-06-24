@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace 'com.aim.companion'
-    compileSdk 34
+    compileSdk rootProject.ext.compileSdkVersion
 
     defaultConfig {
         applicationId "com.aim.companion"
-        minSdk 22
-        targetSdk 34
+        minSdk rootProject.ext.minSdkVersion
+        targetSdk rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
     }
@@ -25,10 +25,15 @@ android {
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
     }
+
+    // Uncomment if using Kotlin
+    // kotlinOptions {
+    //     jvmTarget = "11"
+    // }
 }
 
 dependencies {
-    implementation 'com.capacitorjs:capacitor-android:7.4.0'
-    implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.10.0'
+    implementation "com.getcapacitor:capacitor-android:${rootProject.ext.capacitorAndroidVersion}"
+    implementation "androidx.appcompat:appcompat:${rootProject.ext.androidxAppCompatVersion}"
+    implementation "com.google.android.material:material:1.10.0"
 }
